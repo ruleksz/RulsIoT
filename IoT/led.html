@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RulsIoT</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>IoT</title>
+    </head>
+
+    <body>
+        <div class="layouts">
+            <section class="navbar">
+                <h3>✨RULEKS_CONTROLLER✨</h3>
+            </section>
+            <section class="page-title">
+                <h3>LED CONTROL</h3>
+            </section>
+            <section class="leds">
+                <div class="led">
+                    <img src="assets/led-off.png" class="led-img" id="dapurLedImage">
+                    <p class="led-location-text">Lampu Panjang</p>
+                    <button class="led-submit" id="ledDapur" onclick="setLampuPanjang()">TURN ON</button>
+                </div>
+                <div class="led">
+                    <img src="assets/led-off.png" class="led-img" id="tamuLedImage">
+                    <p class="led-location-text">Lampu Pendek</p>
+                    <button class="led-submit" id="ledTamu" onclick="setLampuPendek()">TURN ON</button>
+                </div>
+                <div class="led">
+                    <img src="assets/led-off.png" class="led-img" id="kamar1LedImage">
+                    <p class="led-location-text">Kamar 1</p>
+                    <button class="led-submit" id="ledKamar1" onclick="setKamar1Led()">TURN ON</button>
+                </div>
+                <div class="led">
+                    <img src="assets/led-off.png" class="led-img" id="kamar2LedImage">
+                    <p class="led-location-text">Kamar 2</p>
+                    <button class="led-submit" id="ledKamar2" onclick="setKamar2Led()">TURN ON</button>
+                </div>
+            </section>
+            <section class="bottombar">
+                <ul>
+                    <li><a href="/"><i class="fa-solid fa-home"></i></a></li>
+                    <li><a href="led.html"><i class="fa-solid fa-lightbulb"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-fan"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </section>
+        </div>
+
+
+        <script src="main.js"></script>
+    </body>
+
+    </html>
+</body>
+
+</html>
